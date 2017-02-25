@@ -24,7 +24,7 @@ public class CalculatorJUnit5Test {
         float input2 = 2;
 
         @Test
-        @DisplayName("When we add them then the result is Three")
+        @DisplayName("When we add them Then the result is Three")
         void plus() {
             float result = calculator.calculate(input1, input2, Operator.PLUS);
 
@@ -32,7 +32,7 @@ public class CalculatorJUnit5Test {
         }
 
         @Test
-        @DisplayName("When we subtract them then the result is Minus One")
+        @DisplayName("When we subtract them Then the result is Minus One")
         void minus() {
             float result = calculator.calculate(input1, input2, Operator.MINUS);
 
@@ -40,7 +40,7 @@ public class CalculatorJUnit5Test {
         }
 
         @Test
-        @DisplayName("When we multiply them then the result is Two")
+        @DisplayName("When we multiply them Then the result is Two")
         void multiply() {
             float result = calculator.calculate(input1, input2, Operator.MULTIPLY);
 
@@ -48,7 +48,7 @@ public class CalculatorJUnit5Test {
         }
 
         @Test
-        @DisplayName("When we divide them then the result is Zero Point Five")
+        @DisplayName("When we divide them Then the result is Zero Point Five")
         void divide() {
             float result = calculator.calculate(input1, input2, Operator.DIVIDE);
 
@@ -56,7 +56,7 @@ public class CalculatorJUnit5Test {
         }
 
         @Test
-        @DisplayName("When we modulo them then the result is One")
+        @DisplayName("When we modulo them Then the result is One")
         void modulo() {
             float result = calculator.calculate(input1, input2, Operator.MODULO);
 
@@ -64,7 +64,7 @@ public class CalculatorJUnit5Test {
         }
 
         @Test
-        @DisplayName("When we apply an Unknown operator to them then the result is Zero")
+        @DisplayName("When we apply an Unknown operator to them Then the result is Zero")
         void unknown() {
             float result = calculator.calculate(input1, input2, Operator.UNKNOWN);
 
@@ -79,7 +79,7 @@ public class CalculatorJUnit5Test {
         float input2 = 0;
 
         @Test
-        @DisplayName("When we add them then the result is One")
+        @DisplayName("When we add them Then the result is One")
         void plus() {
             float result = calculator.calculate(input1, input2, Operator.PLUS);
 
@@ -87,7 +87,7 @@ public class CalculatorJUnit5Test {
         }
 
         @Test
-        @DisplayName("When we subtract them then the result is One")
+        @DisplayName("When we subtract them Then the result is One")
         void minus() {
             float result = calculator.calculate(input1, input2, Operator.MINUS);
 
@@ -95,7 +95,7 @@ public class CalculatorJUnit5Test {
         }
 
         @Test
-        @DisplayName("When we multiply them then the result is Zero")
+        @DisplayName("When we multiply them Then the result is Zero")
         void multiply() {
             float result = calculator.calculate(input1, input2, Operator.MULTIPLY);
 
@@ -103,7 +103,7 @@ public class CalculatorJUnit5Test {
         }
 
         @Test
-        @DisplayName("When we divide them then the result is Infinity")
+        @DisplayName("When we divide them Then the result is Infinity")
         void divide() {
             float result = calculator.calculate(input1, input2, Operator.DIVIDE);
 
@@ -111,7 +111,7 @@ public class CalculatorJUnit5Test {
         }
 
         @Test
-        @DisplayName("When we modulo them then the result is NaN")
+        @DisplayName("When we modulo them Then the result is NaN")
         void modulo() {
             float result = calculator.calculate(input1, input2, Operator.MODULO);
 
@@ -119,7 +119,7 @@ public class CalculatorJUnit5Test {
         }
 
         @Test
-        @DisplayName("When we apply an Unknown operator to them then the result is Zero")
+        @DisplayName("When we apply an Unknown operator to them Then the result is Zero")
         void unknown() {
             float result = calculator.calculate(input1, input2, Operator.UNKNOWN);
 
