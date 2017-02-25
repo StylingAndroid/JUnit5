@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context="com.stylingandroid.junit5.MainActivity">
+
+  <EditText
+    android:id="@+id/number1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="16dp"
+    android:ems="10"
+    android:gravity="center_horizontal"
+    android:inputType="number"
+    tools:ignore="LabelFor" />
+
+  <Spinner
+    android:id="@+id/operator"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="16dp"
+    android:entries="@array/operators"
+    android:gravity="center_horizontal"
+    android:minWidth="128dp" />
+
+  <EditText
+    android:id="@+id/number2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="16dp"
+    android:ems="10"
+    android:gravity="center_horizontal"
+    android:inputType="number"
+    tools:ignore="LabelFor" />
+
+  <Button
+    android:id="@+id/calculate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="16dp"
+    android:text="@string/calculate" />
+
+  <TextView
+    android:id="@+id/result"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="16dp" />
+</LinearLayout>

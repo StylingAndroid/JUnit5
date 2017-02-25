@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">JUnit5</string>
+  <string name="calculate">Calculate</string>
+
+  <string-array name="operators">
+    <item>+</item>
+    <item>-</item>
+    <item>*</item>
+    <item>/</item>
+    <item>%</item>
+  </string-array>
+</resources>
