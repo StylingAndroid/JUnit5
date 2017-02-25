@@ -11,6 +11,7 @@ import static org.assertj.core.api.Java6Assertions.assertThat;
 public class CalculatorJUnit5Test {
 
     private Calculator calculator;
+    final float input1 = 1;
 
     @BeforeEach
     void setup() {
@@ -20,8 +21,7 @@ public class CalculatorJUnit5Test {
     @Nested
     @DisplayName("Given inputs of One and Two")
     class oneAndTwo {
-        float input1 = 1;
-        float input2 = 2;
+        final float input2 = 2;
 
         @Test
         @DisplayName("When we add them Then the result is Three")
@@ -75,8 +75,7 @@ public class CalculatorJUnit5Test {
     @Nested
     @DisplayName("Given inputs of One and Zero")
     class oneAndZero {
-        float input1 = 1;
-        float input2 = 0;
+        final float input2 = 0;
 
         @Test
         @DisplayName("When we add them Then the result is One")
