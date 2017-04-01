@@ -8,14 +8,14 @@ import java.util.Set;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.DynamicTest;
-import org.junit.jupiter.api.Executable;
+import org.junit.jupiter.api.function.Executable;
 import org.junit.jupiter.api.TestFactory;
 
 import static org.assertj.core.api.Java6Assertions.assertThat;
 import static org.junit.jupiter.api.DynamicTest.dynamicTest;
 
 @SuppressWarnings("unused")
-public class CalculatorJUnit5Test {
+class CalculatorJUnit5Test {
 
     private Calculator calculator;
     private final float input1 = 1;
