@@ -21,14 +21,14 @@ android {
 }
 
 junitPlatform {
-    jupiterVersion '5.0.0-M2'
-    platformVersion '1.0.0-M2'
+    jupiterVersion '5.0.0-M3'
+    platformVersion '1.0.0-M3'
 }
 
 dependencies {
     compile 'com.android.support:appcompat-v7:25.2.0'
     testCompile junitJupiter()
-    testProvided "org.junit.vintage:junit-vintage-engine:4.12.0-M2"
+    testProvided "org.junit.vintage:junit-vintage-engine:4.12.0-M3"
     testCompile 'org.assertj:assertj-core:3.6.2'
 }
 
